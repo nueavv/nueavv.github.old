@@ -73,10 +73,10 @@ jobs:
           key: ${{ runner.os }}-gatsby-build-${{ hashFiles('public') }}
           restore-keys: |
             ${{ runner.os }}-gatsby-build-
+      - name: Install Gatsby CLI
+        run: npm install -g gatsby-cli@2.12.3
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
-      - name: Install Gatsby CLI
-        run: npm install -g gatsby-cli@2.12.34
       - name: Build with Gatsby
         env:
           PREFIX_PATHS: 'false'
