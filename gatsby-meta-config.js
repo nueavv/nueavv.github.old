@@ -1,25 +1,25 @@
 module.exports = {
-  title: `Hello! Cloud`,
+  title: `nueavv.cloud`,
   description: `Blog posted about ...`,
-  author: `[Your Name]`,
+  author: `nueavv`,
   introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
   siteUrl: `https://nueavv.github.io`, 
   social: {
     twitter: ``, // Your Twitter account
-    github: `@nueavv`, // Your GitHub account
+    github: `nueavv`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
     instagram: ``, // Your Instagram account
   },
   icon: `content/assets/felog.png`, // Add your favicon
-  keywords: [`blog`,`kubernetes` ],
+  keywords: [`blog`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
+    utterances: 'nueavv/nueavv.github.io', // Your repository for archive comment
   },
   configs: {
-    countOfInitialPost: 5, // Config your initial count of post
+    countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
     buyMeACoffeeId: 'jbee',
