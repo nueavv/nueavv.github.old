@@ -1,8 +1,8 @@
 module.exports = {
-  title: `Bee starter`,
-  description: `Blog posted about ...`,
-  author: `[Your Name]`,
-  introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
+  title: `nueavv.cloud`,
+  description: `안녕하세요 ~`,
+  author: `nueavv`,
+  introduction: `😁`,
   siteUrl: `https://nueavv.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
