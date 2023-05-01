@@ -2,7 +2,7 @@ module.exports = {
   title: `nueavv.cloud`,
   description: `Blog posted about ...`,
   author: `nueavv`,
-  introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
+  introduction: `Hello, World`,
   siteUrl: `https://nueavv.github.io`, 
   social: {
     twitter: ``, // Your Twitter account
@@ -16,13 +16,13 @@ module.exports = {
   keywords: [`blog`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'nueavv/nueavv.github.io', // Your repository for archive comment
+    utterances: '', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
-    buyMeACoffeeId: 'jbee',
+    buyMeACoffeeId: '',
   },
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
