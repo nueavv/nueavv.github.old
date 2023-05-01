@@ -1,7 +1,7 @@
 module.exports = {
   title: `Hello! Cloud`,
   description: `Blog posted about ...`,
-  author: `[@nueavv]`,
+  author: `@nueavv`,
   introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
   siteUrl: `https://nueavv.github.io`, 
   social: {
