@@ -1,9 +1,9 @@
 module.exports = {
-  title: `nueavv.cloud`,
+  title: `Bee starter`,
   description: `Blog posted about ...`,
-  author: `nueavv`,
-  introduction: `Hello, World`,
-  siteUrl: `https://nueavv.github.io`, 
+  author: `[Your Name]`,
+  introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
+  siteUrl: `https://nueavv.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: `nueavv`, // Your GitHub account

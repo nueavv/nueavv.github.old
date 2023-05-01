@@ -1,6 +1,6 @@
 ---
 title: 'about'
-date: 2023-05-01 23:16:13
+date: 2019-1-27 16:21:13
 lang: 'ko'
 ---
 
@@ -8,6 +8,6 @@ lang: 'ko'
 
 <div align="center">
 
-Hello~
+_Thank you for reading my resume. If you want to contact me, Please send me an email._
 
 </div>
