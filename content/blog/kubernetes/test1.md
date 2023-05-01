@@ -1,8 +1,10 @@
 ---
-title: 'Test1'
-date: 2020-6-14 16:21:13
-category: 'essay'
+title: 'CKS 시험 전 문서 정리'
+date: 2023-05-01 23:05:13
+category: 'kubernetes'
 draft: false
 ---
 
-Test1
+# nueavv
+
+
