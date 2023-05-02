@@ -9,5 +9,6 @@ lang: 'ko'
 <div align="center">
 
 안녕하세요~ 😋
+모두 화이팅 🙌
 
 </div>

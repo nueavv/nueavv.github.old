@@ -2,7 +2,7 @@ module.exports = {
   title: `nueavv.cloud`,
   description: `안녕하세요 ~`,
   author: `nueavv`,
-  introduction: `😁 음하화`,
+  introduction: `😁 음하화 🗒️ 정리하는 습관 들이기 위한 블로그`,
   siteUrl: `https://nueavv.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
