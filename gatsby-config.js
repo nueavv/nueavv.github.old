@@ -27,7 +27,7 @@ module.exports = {
     sponsor: {
       buyMeACoffeeId: '',
     },
-    ga: '0', // Add your google analytics tranking ID
+    ga: 'G-658N8CH1JM', // Add your google analytics tranking ID
     ad: '', // Add your google adsense publisherId `ca-pub-xxxxxxxxxx`
 
   },
