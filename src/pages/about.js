@@ -8,7 +8,7 @@ export default ({ data }) => {
   const stories = data.allMarkdownRemark.edges
 
   const story = stories
-    .filter(({ node }) => node.frontmatter.lang === Lang.ENGLISH)
+    .filter(({ node }) => node.frontmatter.lang === Lang.KOREAN)
     .map(({ node }) => node)[0]
 
   return (
