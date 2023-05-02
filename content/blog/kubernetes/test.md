@@ -1,12 +1,11 @@
 ---
-title: CKS-2023-05-07
+title: test
 date: 2023-05-02 00:05:04
 category: kubernetes
 thumbnail: { thumbnailSrc }
 draft: false
 ---
 
-kube-bench 사용법
+testtest
 
-
-
+### test
