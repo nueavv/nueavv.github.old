@@ -7,6 +7,11 @@ draft: false
 ---
 
 ## apparmor
+### enforce vs complain
+- 강제(enforce) 모드 : 허용하지 않은 리소스 접근을 차단하는 모드
+- 불평(complain) 모드 : 위반한 내용 기록하는 모드
+
+
 ### 프로파일 내용 이해하기
 ```txt
 #include <tunables/global>
@@ -29,7 +34,7 @@ profile apparmor-example {
 ```
 
 
-### 프로파일 추가하기
+### 프로파일 추가하기 (적용 X, 로드 O)
 1. /etc/apparmor.d/ 경로 아래에 프로파일을 하나 생성
 2. `apparmor_parser <파일 위치>`로 프로파일 추가 
 
@@ -44,7 +49,8 @@ aa-status # apparmor 상태 확인 명령어
 
 ### 쿠버네티스에 적용하기
 
-AppArmor는 컨테이너 별로 지정 된다. 파드의 메타데이터에 annotation으로 추가 
+- AppArmor는 컨테이너 별로 지정 된다. 파드의 메타데이터에 annotation으로 추가한다.
+- 적용 되면 enfoce 모드로 적용 된다. 
 
 ```yaml
 container.apparmor.security.beta.kubernetes.io/<container_name>: <profile_ref>
