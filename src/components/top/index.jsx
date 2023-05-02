@@ -12,6 +12,11 @@ export const Top = ({ title, location, rootPath }) => {
           {title}
         </Link>
       )}
+      {isRoot && (
+        <Link to={`/`} className="link">
+            Welcome
+        </Link>
+      )}
     </div>
   )
 }
