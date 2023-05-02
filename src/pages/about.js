@@ -5,9 +5,9 @@ import { rhythm } from '../utils/typography'
 import * as Lang from '../constants'
 
 export default ({ data }) => {
-  const resumes = data.allMarkdownRemark.edges
+  const stories = data.allMarkdownRemark.edges
 
-  const resume = resumes
+  const story = stories
     .filter(({ node }) => node.frontmatter.lang === Lang.ENGLISH)
     .map(({ node }) => node)[0]
 
@@ -22,7 +22,7 @@ export default ({ data }) => {
         )}`,
       }}
     >
-      <div dangerouslySetInnerHTML={{ __html: resume.html }} />
+      <div dangerouslySetInnerHTML={{ __html: story.html }} />
     </div>
   )
 }
