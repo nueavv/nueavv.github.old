@@ -55,6 +55,10 @@ falco 커널 모듈에 syscall이 먼저 전달 되고 falco는 policy엔진으�
 
 
 ### falco rule - condition
+
+🔥 주의 
+같은 조건의 룰이 존재하는 경우 `/etc/falco/falco.yaml`의 룰 리스트 중 마지막 룰이 적용됨
+
 #### 리스트 사용
 위의 예시 중 `proc.name in (docker, sysdig, dragent)` 형식을 리스트 변수로 변경해보기
 
@@ -92,5 +96,8 @@ falco는 `/etc/falco/falco.yaml` 경로에 설정 파일이 위치해있다.
 # Hot Reloaded
 cat /var/run/falco.pid
 kill -1 $( cat /var/run/falco.pid )
+
+# falco 재시작
+systemctl restart falco
 ```
 
