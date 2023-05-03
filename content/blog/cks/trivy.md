@@ -1,6 +1,6 @@
 ---
 title: vulnerability scanner - trivy
-date: 2023-05-03 20:33:04
+date: 2023-05-03 20:33:00
 category: cks
 thumbnail: { thumbnailSrc }
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: apparmor
-date: 2023-05-02 18:07:04
+date: 2023-05-02 18:07:00
 category: cks
 thumbnail: { thumbnailSrc }
 draft: false
