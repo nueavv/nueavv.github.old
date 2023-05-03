@@ -113,3 +113,4 @@ imagePullSecrets:
 
 </td>
 </tr>
+</table>
