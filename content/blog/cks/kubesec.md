@@ -1,6 +1,6 @@
 ---
 title: static analysis - kubesec
-date: 2023-05-03 23:16:00
+date: 2023-05-03 23:30:00
 category: cks
 thumbnail: { thumbnailSrc }
 draft: false
