@@ -1,6 +1,6 @@
 ---
-title: whitelist allowed registries - image-policy-webhook
-date: 2023-05-03 21:25:00
+title: 🔒⛓ whitelist allowed registries - image-policy-webhook
+date: 2023-05-03 23:44:00
 category: cks
 thumbnail: { thumbnailSrc }
 draft: false
