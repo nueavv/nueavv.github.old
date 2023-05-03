@@ -1,6 +1,6 @@
 ---
-title: cis-benchmarks
-date: 2023-05-02 20:05:00
+title: 🔒🔧 cis-benchmarks - kube-bench
+date: 2023-05-03 23:47:00
 category: cks
 thumbnail: { thumbnailSrc }
 draft: false
