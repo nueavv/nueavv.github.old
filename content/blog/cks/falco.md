@@ -82,3 +82,15 @@ falco 커널 모듈에 syscall이 먼저 전달 되고 falco는 policy엔진으�
   output: "Namespace change (setns) by unexpected program (user=%user.name command=%proc.cmdline container=%container.id)"
   priority: WARNING
 ```
+
+## falco 설정 파일
+falco는 `/etc/falco/falco.yaml` 경로에 설정 파일이 위치해있다.
+
+해당 파일을 수정하는 경우 엔진을 재 시작해 주어야 한다.
+
+```sh
+# Hot Reloaded
+cat /var/run/falco.pid
+kill -1 $( cat /var/run/falco.pid )
+```
+
