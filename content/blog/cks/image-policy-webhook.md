@@ -1,11 +1,12 @@
 ---
-title: 🔒⛓ whitelist allowed registries - image-policy-webhook
+title: 🔒⛓[CKS] 허용된 레지스트리만 사용하기 - image-policy-webhook
 date: 2023-05-03 23:44:00
 category: cks
 thumbnail: { thumbnailSrc }
 draft: false
 ---
 
+# whitelist allowed registries - image-policy-webhook 
 ## Admission Configuration 이해하기
 kubernetes API 서버에 `--enable-admission-plugins` 옵션을 이용하여 활성화 시킬 plugin을 추가하고 해당 플러그인에 대한 설정은 `--admission-control-config-file` 옵션을 통해 전달할 수 있다. 
 

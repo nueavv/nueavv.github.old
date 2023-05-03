@@ -1,5 +1,5 @@
 ---
-title: 🔒🔧 kubernetes network security
+title: 🔒🔧[CKS] kubernetes network security
 date: 2023-05-03 23:50:00
 category: cks
 thumbnail: { thumbnailSrc }

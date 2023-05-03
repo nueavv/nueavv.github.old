@@ -1,10 +1,12 @@
 ---
-title: 🔒⛓ static analysis - kubesec
+title: 🔒⛓[CKS] 리소스 정적 분석기 - kubesec
 date: 2023-05-03 23:45:00
 category: cks
 thumbnail: { thumbnailSrc }
 draft: false
 ---
+
+# static analysis - kubesec
 
 kubesec은 파드를 띄우기 전에 리소스를 정적으로 보안 검사를 할 수 있는 방법 중 하나이다.
 admission webhook으로 설정하거나, CI/CD 과정에 녹여 검사를 진행할 수 있다.

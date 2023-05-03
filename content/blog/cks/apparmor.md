@@ -1,5 +1,5 @@
 ---
-title: apparmor
+title: [CKS] apparmor
 date: 2023-05-02 18:07:00
 category: cks
 thumbnail: { thumbnailSrc }

@@ -1,5 +1,5 @@
 ---
-title: 🔒🔧 cis-benchmarks - kube-bench
+title: 🔒🔧[CKS] cis-benchmarks - kube-bench
 date: 2023-05-03 23:47:00
 category: cks
 thumbnail: { thumbnailSrc }

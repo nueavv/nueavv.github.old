@@ -1,10 +1,12 @@
 ---
-title: 🔒⛓ vulnerability scanner - trivy
+title: 🔒⛓[CKS] 취약점 스캐너 - trivy
 date: 2023-05-03 20:46:00
 category: cks
 thumbnail: { thumbnailSrc }
 draft: false
 ---
+
+# vulnerability scanner - trivy
 
 CVE가 몇개 있는지 찾기 위해 CVE Scanner가 있다.
 
