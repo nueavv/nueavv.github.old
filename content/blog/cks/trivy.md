@@ -13,6 +13,9 @@ CVE가 몇개 있는지 찾기 위해 CVE Scanner가 있다.
 
 ## trivy를 이용한 이미지 스캐닝 방법
 
+**🔥 주의 🔥**  
+trivy 버전별로 subcommand가 달라질 수 있으니 주의
+
 ```sh
 # 기본 이미지 스캐닝
 trivy image nginx:1.18.0
@@ -36,9 +39,6 @@ trivy image nginx:1.18.0 --output output.txt
 # 스캐닝 결과 포멧 변경
 trivy image nginx:1.18.0 --output output.json --format json
 ```
-
-### 🔥 주의 🔥  
-trivy 버전별로 subcommand가 달라질 수 있으니 주의
 
 ## 👍 이미지 취약점 줄이기 
 이미지에 있는 취약점을 줄이기 위해서는 이미지 크기를 줄이는 것이 베스트이다.
