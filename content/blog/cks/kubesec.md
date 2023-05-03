@@ -6,9 +6,11 @@ thumbnail: { thumbnailSrc }
 draft: false
 ---
 
-파드를 띄우기 전에 이미지의 보안 검사를 할 수 있는 방법
+kubesec은 파드를 띄우기 전에 리소스를 정적으로 보안 검사를 할 수 있는 방법 중 하나이다.
+admission webhook으로 설정하거나, CI/CD 과정에 녹여 검사를 진행할 수 있다.
 
 ## kubesec 사용방법
+
 ```sh
 # kubesec을 바이너리로 설치한 경우
 # kubesec scan <리소스 파일 >
@@ -22,14 +24,14 @@ curl -X POST --data-binary @"pod.yaml" https://v2.kubesec.io/scan
 kubesec http 8080 &
 ```
 
-## 직접 스캔하기 
+## 🗒️ 직접 스캔하기 
 ### 스캔할 파일 생성 및 스캔 요청 
 ```sh
 kubectl create deployment test --image=nginx:latest --dry-run=client -o yaml > deployment.yaml
 curl -X POST --data-binary @"deployment.yaml" https://v2.kubesec.io/scan
 ```
 
-### scan 결과 
+### scan 결과 ✅ Passed
 ```json
 [
   {
