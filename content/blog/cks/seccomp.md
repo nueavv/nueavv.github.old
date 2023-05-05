@@ -1,12 +1,14 @@
 ---
-title: 🔒[CKS] securityContext 설정하기 
+title: 🔒[CKS] seccomp 설정하기 
 date: 2023-05-04 22:18:00
 category: cks
 thumbnail: { thumbnailSrc }
 draft: false
 ---
 
-## seccomp 설정하기
+```
+
+### seccomp 설정하기
 securityContext에 설정하면 된다.
 /var/lib/kubelet/seccomp/profiles 아래에 프로파일을 넣고 다음과 같이 설정한다.
 
