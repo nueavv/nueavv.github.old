@@ -1,6 +1,6 @@
 ---
 title: 🔒[CKS] open-policy-agent
-date: 2023-05-05 12:57:00
+date: 2023-05-05 15:41:00
 category: cks
 thumbnail: { thumbnailSrc }
 draft: false
