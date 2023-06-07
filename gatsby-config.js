@@ -141,6 +141,28 @@ module.exports = {
         publisherId: metaConfig.ad,
       },
     },
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-mermaid`,
+            options: {
+              launchOptions: {
+                executablePath: 'path/to/chrome/executable'
+              },
+              svgo: {
+                plugins: [{ name: 'removeTitle', active: false }]
+              },
+              mermaidOptions: {
+                theme: 'neutral',
+                themeCSS: '.node rect { fill: #fff; }'
+              }
+            }
+          }
+        ]
+      }
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-feed`,
