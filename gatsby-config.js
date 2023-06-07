@@ -141,6 +141,22 @@ module.exports = {
         publisherId: metaConfig.ad,
       },
     },
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-mermaid`,
+            options: /** @type {import('gatsby-remark-mermaid').Options} */ ({
+              mermaidConfig: {
+                theme: 'neutral',
+                themeCSS: '.node rect { fill: #fff; }'
+              }
+            })
+          }
+        ]
+      }
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-feed`,
