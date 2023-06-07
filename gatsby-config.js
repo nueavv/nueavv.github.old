@@ -32,6 +32,7 @@ module.exports = {
 
   },
   plugins: [
+    
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -57,6 +58,15 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          {
+            resolve: `gatsby-remark-mermaid`,
+            options: /** @type {import('gatsby-remark-mermaid').Options} */ ({
+              mermaidConfig: {
+                theme: 'neutral',
+                themeCSS: '.node rect { fill: #fff; }'
+              }
+            })
+          },
           {
             resolve: `gatsby-remark-katex`,
             options: {
@@ -140,22 +150,6 @@ module.exports = {
       options: {
         publisherId: metaConfig.ad,
       },
-    },
-    {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-mermaid`,
-            options: /** @type {import('gatsby-remark-mermaid').Options} */ ({
-              mermaidConfig: {
-                theme: 'neutral',
-                themeCSS: '.node rect { fill: #fff; }'
-              }
-            })
-          }
-        ]
-      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
